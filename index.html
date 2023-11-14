@@ -1,25 +1,33 @@
 <head>
   <style>
     body {
-      background-color: rgb(255, 0, 255);
+      background-color: rgb(127, 0, 255);
       color: black;
       text-stroke: white;
     }
 
     a {
-      background-color: rgb(127, 127, 0);
+      background-color: rgb(0, 0, 0);
       color: white;
-      padding: 25px 25px;
+      width: 50px;
+      height: 50px;
       text-align: center;
+      margin: 15px;
       text-decoration: none;
-      display: inline-block;
+      float: left;
+    }
+
+    .buttons > div {
+      width: 260;
+      background-color: rgb(127, 127, 127);
+      overflow-y: auto;
     }
   </style>
 </head>
 
 <body>
   <h1>Random Sound Website</h1>
-  <h2>Drag buttons to bookmarks bar to play on any site</h2>
+  <h2>Drag buttons to bookmarks bar to play on any site (provided you have internet and are not on pages like new tab)</h2>
   <div id="buttons">
     <a href="javascript:new Audio('https://turtletown73.github.io/Ricksound/vsauce.mp3').play();">vsauce</a>
     <a href="javascript:new Audio('https://turtletown73.github.io/Ricksound/rickroll.mp3').play();">rickroll</a>
